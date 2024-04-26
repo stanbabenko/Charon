@@ -1,0 +1,3 @@
+To serve in development:
+
+npx webpack serve --mode development
