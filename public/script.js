@@ -85,8 +85,8 @@ const graphData = [
 'June',
 'July'].
 map(i => {
-  const revenue = 500 + Math.random() * 2000;
-  const expectedRevenue = Math.max(revenue + (Math.random() - 0.5) * 2000, 0);
+  const revenue = 500 + Math.random() * 200000;
+  const expectedRevenue = Math.max(revenue + (Math.random() - 0.5) * 200000, 0);
   return {
     name: i,
     revenue,
@@ -459,7 +459,7 @@ function NameCard({
       'text-lg') },
 
 
-    transactions.interpolate(i => `$${i.toFixed(2)}`)), /*#__PURE__*/
+    transactions.interpolate(i => `ETH ${i.toFixed(2)}`)), /*#__PURE__*/
 
     React.createElement("div", { className: "text-sm " }, "Last 6 month")))));
 
