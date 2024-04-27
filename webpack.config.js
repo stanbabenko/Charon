@@ -14,15 +14,18 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
     ]
   },
   devServer: {
     static: {
-	directory: path.join(__dirname,'public'),
+      directory: path.join(__dirname, 'public'),
     },
     port: 3000,
     open: true
   }
 };
-
