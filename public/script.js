@@ -20,7 +20,7 @@ const employeeData = [
   id: 1,
   name: 'Ruthzee Louijeune',
   position: "City Council President",
-  transactions: 3490,
+  transactions: 349001,
   rise: true,
   tasksCompleted: 3,
   imgId: 0 },
@@ -30,19 +30,19 @@ const employeeData = [
   id: 2,
   name: 'Julia Mejia',
   position: "City Councilor",
-  transactions: 590,
+  transactions: 5900,
   rise: false,
-  tasksCompleted: 5,
+  tasksCompleted: 3,
   imgId: 2 },
 
 
 {
   id: 3,
-  name: 'Corey Booker',
+  name: 'Ian Cain',
   position: "Senate",
-  transactions: 2600,
+  transactions: 560000,
   rise: true,
-  tasksCompleted: 1,
+  tasksCompleted: 4,
   imgId: 3 }];
 
 
@@ -54,7 +54,7 @@ const Countrydata = [
 { name: 'Sweden', rise: true, value: 9725.0, id: 4 }];
 
 const segmentationData = [
-{ c1: 'St Francis Outreach', c2: '800', c3: '#363636', color: '#535353' },
+{ c1: 'St Francis', c2: '800', c3: '#363636', color: '#535353' },
 { c1: 'Red Cross', c2: '441', c3: '#818bb1', color: '#595f77' },
 { c1: 'Habitat for Humanity', c2: '233', c3: '#2c365d', color: '#232942' },
 { c1: 'Other', c2: '126', c3: '#334ed8', color: '#2c3051' }];
