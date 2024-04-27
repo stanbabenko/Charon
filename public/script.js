@@ -18,8 +18,8 @@ const tau = 2 * pi;
 const employeeData = [
 {
   id: 1,
-  name: 'Esther Howard',
-  position: "Sale's manager USA",
+  name: 'Ruthzee Louijeune',
+  position: "City Council President",
   transactions: 3490,
   rise: true,
   tasksCompleted: 3,
@@ -28,8 +28,8 @@ const employeeData = [
 
 {
   id: 2,
-  name: 'Eleanor Pena',
-  position: "Sale's manager Europe",
+  name: 'Julia Mejia',
+  position: "City Councilor",
   transactions: 590,
   rise: false,
   tasksCompleted: 5,
@@ -38,8 +38,8 @@ const employeeData = [
 
 {
   id: 3,
-  name: 'Robert Fox',
-  position: "Sale's manager Asia",
+  name: 'Corey Booker',
+  position: "Senate",
   transactions: 2600,
   rise: true,
   tasksCompleted: 1,
@@ -54,9 +54,9 @@ const Countrydata = [
 { name: 'Sweden', rise: true, value: 9725.0, id: 4 }];
 
 const segmentationData = [
-{ c1: 'Not Specified', c2: '800', c3: '#363636', color: '#535353' },
-{ c1: 'Male', c2: '441', c3: '#818bb1', color: '#595f77' },
-{ c1: 'Female', c2: '233', c3: '#2c365d', color: '#232942' },
+{ c1: 'St Francis Outreach', c2: '800', c3: '#363636', color: '#535353' },
+{ c1: 'Red Cross', c2: '441', c3: '#818bb1', color: '#595f77' },
+{ c1: 'Habitat for Humanity', c2: '233', c3: '#2c365d', color: '#232942' },
 { c1: 'Other', c2: '126', c3: '#334ed8', color: '#2c3051' }];
 
 
@@ -297,7 +297,7 @@ function Content({ onSidebarHide }) {
     React.createElement("div", { className: "sm:flex-grow flex justify-between" }, /*#__PURE__*/
     React.createElement("div", { className: "" }, /*#__PURE__*/
     React.createElement("div", { className: "flex items-center" }, /*#__PURE__*/
-    React.createElement("div", { className: "text-3xl font-bold text-white" }, "Hello David"), /*#__PURE__*/
+    React.createElement("div", { className: "text-3xl font-bold text-white" }, "Charon"), /*#__PURE__*/
     React.createElement("div", { className: "flex items-center p-2 bg-card ml-2 rounded-xl" }, /*#__PURE__*/
     React.createElement(Icon, { path: "res-react-dash-premium-star" }), /*#__PURE__*/
 
@@ -418,7 +418,7 @@ function NameCard({
 
 
 
-    React.createElement("div", { className: "text-sm  mt-2" }, `${tasksCompleted} from 5 tasks completed`), /*#__PURE__*/
+    React.createElement("div", { className: "text-sm  mt-2" }, `${tasksCompleted} from 5 Initiatives Launched`), /*#__PURE__*/
     React.createElement("svg", {
       className: "w-44 mt-3",
       height: "6",
@@ -484,7 +484,7 @@ function Graph() {
     React.createElement("div", { className: "flex p-4 h-full flex-col" }, /*#__PURE__*/
     React.createElement("div", { className: "" }, /*#__PURE__*/
     React.createElement("div", { className: "flex items-center" }, /*#__PURE__*/
-    React.createElement("div", { className: "font-bold text-white" }, "Your Work Summary"), /*#__PURE__*/
+    React.createElement("div", { className: "font-bold text-white" }, "Your NFT Summary"), /*#__PURE__*/
     React.createElement("div", { className: "flex-grow" }), /*#__PURE__*/
 
     React.createElement(Icon, { path: "res-react-dash-graph-range", className: "w-4 h-4" }), /*#__PURE__*/
@@ -545,7 +545,7 @@ function TopCountries() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "flex p-4 flex-col h-full" }, /*#__PURE__*/
     React.createElement("div", { className: "flex justify-between items-center" }, /*#__PURE__*/
-    React.createElement("div", { className: "text-white font-bold" }, "Top Countries"), /*#__PURE__*/
+    React.createElement("div", { className: "text-white font-bold" }, "Global Outreach"), /*#__PURE__*/
     React.createElement(Icon, { path: "res-react-dash-plus", className: "w-5 h-5" })), /*#__PURE__*/
 
     React.createElement("div", { className: "" }, "favourites"),
@@ -813,7 +813,7 @@ function Satisfication() {
 
 
 
-    React.createElement("div", { className: "" }, "Based on Likes")), /*#__PURE__*/
+    React.createElement("div", { className: "" }, "Based on Community Engagement")), /*#__PURE__*/
 
     React.createElement("div", { className: "", style: { width: '50px' } }, "100%")))));
 
